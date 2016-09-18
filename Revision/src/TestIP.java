@@ -4,6 +4,7 @@ public class TestIP {
 	
 	public static void verificationIP (String str){
 		
+		System.out.println("HELLO");
 		String [] tab = str.split("\\.");
 		
 		if (tab.length == 4){
